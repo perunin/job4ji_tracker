@@ -1,7 +1,7 @@
 package ru.job4j.tracker;
 
 public class DummyDic {
-    public String engToRus(String eng){
+    public String engToRus(String eng) {
         eng = "Неизвестное слово " + eng;
         return eng;
     }
