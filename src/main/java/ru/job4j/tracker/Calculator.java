@@ -3,6 +3,14 @@ package ru.job4j.tracker;
 public class Calculator {
     private static int x = 5;
 
+    public double add(double first, double second) {
+        return first + second;
+    }
+
+    public double add(double first, double second, double third) {
+        return first + second + third;
+    }
+
     public static int sum(int y) {
         return x + y;
     }
