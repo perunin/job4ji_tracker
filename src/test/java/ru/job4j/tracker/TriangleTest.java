@@ -22,7 +22,7 @@ public class TriangleTest  {
     public void when00and01and00ThenMinus1() {
         Point a = new Point(0, 0);
         Point b = new Point(0, 0);
-        Point c = new Point(0, 0);
+        Point c = new Point(10, 10);
         Triangle triangle = new Triangle(a, b, c);
         double rsl = triangle.area();
         assertThat(rsl, closeTo(-1, 0));
