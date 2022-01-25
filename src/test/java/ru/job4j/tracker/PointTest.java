@@ -25,4 +25,14 @@ public class PointTest  {
         double expected = 2;
         assertThat(rsl, is(expected));
     }
+
+    @Test
+    public void whenX1Y0Z145andZ290ThenDistance145() {
+        Point a = new Point(1, 0, 145);
+        Point b = new Point(1, 0, 290);
+        double rsl = a.distance3d(b);
+        double expected = 145;
+        assertThat(rsl, is(expected));
+    }
+
 }
