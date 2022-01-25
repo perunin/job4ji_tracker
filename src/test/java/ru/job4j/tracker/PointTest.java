@@ -14,7 +14,7 @@ public class PointTest  {
         Point b = new Point(0, 0);
         double rsl = a.distance(b);
         double expected = 0;
-        assertThat(expected, is(a.distance(b)));
+        assertThat(rsl, is(expected));
     }
 
     @Test
@@ -23,6 +23,6 @@ public class PointTest  {
         Point b = new Point(0, 2);
         double rsl = a.distance(b);
         double expected = 2;
-        assertThat(expected, is(a.distance(b)));
+        assertThat(rsl, is(expected));
     }
 }
