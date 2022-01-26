@@ -1,10 +1,10 @@
-package ru.job4j.tracker;
+package ru.job4j.condition;
 
-import junit.framework.TestCase;
 import org.junit.Assert;
 import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.assertThat;
 import org.junit.Test;
+import ru.job4j.condition.Max;
 
 public class MaxTest {
 

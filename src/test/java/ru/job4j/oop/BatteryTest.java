@@ -1,7 +1,7 @@
-package ru.job4j.tracker;
+package ru.job4j.oop;
 
-import junit.framework.TestCase;
 import org.junit.Test;
+import ru.job4j.oop.Battery;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
