@@ -2,23 +2,15 @@ package ru.job4j.tracker;
 
 public class Max {
     public static int max(int one, int second) {
-        int result = one > second ? one : second;
-        return result;
+        return one > second ? one : second;
     }
 
     public static int max(int one, int second, int third) {
-        int result = max(
-                one,
-                max(second, third));
-        return result;
+        return max(one, max(second, third));
     }
 
     public static int max(int one, int second, int third, int four) {
-        int result = max(
-                one,
-                max(second, third, four));
-        return result;
-
+        return max(one, max(second, third, four));
     }
 
 }
