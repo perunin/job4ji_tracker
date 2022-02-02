@@ -17,6 +17,6 @@ public class Reduce {
         int[] array = {1, 2, 3};
         Reduce reduce = new Reduce();
         reduce.to(array);
-        reduce.print();
+        //reduce.print();
     }
 }
