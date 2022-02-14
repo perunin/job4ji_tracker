@@ -2,7 +2,11 @@ package ru.job4j.inheritance;
 
 public class Surgeon extends Doctor {
 
-    public Surgeon() {
-        super();
+    private boolean makeOperation;
+
+    public Surgeon(boolean makeOperation, char sex, String name, String surname, String education, int birthday) {
+        super(sex, name, surname, education, birthday);
+        this.makeOperation = makeOperation;
     }
+
 }
