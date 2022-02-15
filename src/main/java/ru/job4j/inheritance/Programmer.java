@@ -8,4 +8,9 @@ public class Programmer extends Engineer {
         super(skill,  name, surname, education, birthday);
         this.makeProgramm = makeProgramm;
     }
+
+    public boolean programm(boolean makeProgramm) {
+        this.makeProgramm = makeProgramm;
+        return makeProgramm;
+    }
 }

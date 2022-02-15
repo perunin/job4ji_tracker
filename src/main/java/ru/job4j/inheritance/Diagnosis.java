@@ -5,4 +5,8 @@ public class Diagnosis {
     public Diagnosis() {
 
     }
+
+    public boolean unhealth(boolean health) {
+        return health;
+    }
 }

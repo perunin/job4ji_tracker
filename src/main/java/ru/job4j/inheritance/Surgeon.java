@@ -9,4 +9,9 @@ public class Surgeon extends Doctor {
         this.makeOperation = makeOperation;
     }
 
+    public boolean operation(boolean makeOperation) {
+        this.makeOperation = makeOperation;
+        return makeOperation;
+    }
+
 }

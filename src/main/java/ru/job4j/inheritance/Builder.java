@@ -9,4 +9,9 @@ public class Builder extends Engineer {
         this.finishHouse = finishHouse;
     }
 
+    public boolean house(boolean finishHouse) {
+        this.finishHouse = finishHouse;
+        return finishHouse;
+    }
+
 }
