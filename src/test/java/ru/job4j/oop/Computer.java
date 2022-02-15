@@ -32,8 +32,6 @@ public class Computer {
     }
 
     public static void main(String[] args) {
-        //Computer first = new Computer();
-        //first.printInfo();
         Computer second = new Computer(true, 500, "Intel Core i7");
         second.printInfo();
         Computer third = new Computer(600, "Intel Core i5");
