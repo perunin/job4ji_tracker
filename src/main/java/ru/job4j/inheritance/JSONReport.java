@@ -7,5 +7,4 @@ public class JSONReport extends  TextReport {
         body = "body";
         return name + System.lineSeparator() + body;
     }
-
 }
