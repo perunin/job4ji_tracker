@@ -26,7 +26,7 @@ public class Library {
         System.out.println();
         for (int i = 0; i < books.length; i++) {
             Book display = books[i];
-            if (display.equals(one.getName())) {
+            if ("Clean code".equals(display.getName())) {
                 System.out.println("Name: " + display.getName());
             }
         }
